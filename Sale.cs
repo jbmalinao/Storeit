@@ -4,9 +4,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ClassLibrary1
+namespace Store_It_App
 {
-    internal class Class1
-    {
-    }
+public class SaleItem
+{
+    public string Name { get; set; }
+    public decimal Price { get; set; }
+}
 }
