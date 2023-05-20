@@ -6,7 +6,13 @@ using System.Threading.Tasks;
 
 namespace store
 {
-    internal class Class1
-    {
-    }
+    public enum TransactionType
+
+{
+
+    Debt,
+
+    Payment
+
+}
 }
