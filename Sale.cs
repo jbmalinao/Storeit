@@ -20,7 +20,7 @@ namespace store
 
        public decimal TotalAmount { get; set; }
 
-       public decimal Profit { get; set; }
+
 
       public Sale()
 
@@ -32,7 +32,7 @@ namespace store
 
         TotalAmount = 0;
 
-        Profit = 0;
+
 
     }
     }
