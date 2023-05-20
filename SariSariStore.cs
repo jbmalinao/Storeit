@@ -16,17 +16,13 @@ namespace store
     {
        public List<Customer> Customers { get; set; }
 
-    public List<Product> Products { get; set; }
-
-    public List<Sale> Sales { get; set; }
-
+       public List<Sale> Sales { get; set; }
+ 
     public SariSariStore()
-
+  
     {
 
         Customers = new List<Customer>();
-
-        Products = new List<Product>();
 
         Sales = new List<Sale>();
 
@@ -40,14 +36,6 @@ namespace store
 
     }
 
-    public void AddProduct(Product product)
-
-    {
-
-        Products.Add(product);
-
-    }
-
     public void RecordSale(Sale sale)
 
     {
@@ -56,41 +44,56 @@ namespace store
 
     }
 
-    public decimal CalculateTotalExpenses()
+    public void RecordDebtPayment(Customer customer, decimal amount)
 
     {
 
-        decimal totalExpenses = 0;
-
-        foreach (Product product in Products)
-
-        {
-
-            totalExpenses += product.Cost;
-
-        }
-
-        return totalExpenses;
+        customer.Debt -= amount;
 
     }
-
-    public decimal CalculateProfit(decimal totalExpenses)
+        
+     public void AddTransaction(Transaction transaction)
 
     {
 
-        decimal totalSales = 0;
+        Transactions.Add(transaction);
 
-        foreach (Sale sale in Sales)
+    }
+
+    public decimal GetCustomerDebt(Customer customer)
+
+    {
+
+        decimal totalDebt = 0;
+
+        foreach (Transaction transaction in Transactions)
 
         {
 
-            totalSales += sale.GetTotalAmount();
+            if (transaction.Customer == customer && transaction.Type == TransactionType.Debt)
+
+            {
+
+                totalDebt += transaction.Amount;
+
+            }
+
+            else if (transaction.Customer == customer && transaction.Type == TransactionType.Payment)
+
+            {
+
+                totalDebt -= transaction.Amount;
+
+            }
 
         }
 
-        decimal profit = totalSales - totalExpenses;
+        return totalDebt;
 
-        return profit;
-      
     }
-}
+ }    
+}     
+
+     
+    
+
