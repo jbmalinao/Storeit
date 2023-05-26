@@ -1,0 +1,15 @@
+C:\Users\jhon brayl\source\repos\StoreIt\StoreIt\bin\Debug\net6.0\StoreIt.exe
+C:\Users\jhon brayl\source\repos\StoreIt\StoreIt\bin\Debug\net6.0\StoreIt.deps.json
+C:\Users\jhon brayl\source\repos\StoreIt\StoreIt\bin\Debug\net6.0\StoreIt.runtimeconfig.json
+C:\Users\jhon brayl\source\repos\StoreIt\StoreIt\bin\Debug\net6.0\StoreIt.dll
+C:\Users\jhon brayl\source\repos\StoreIt\StoreIt\bin\Debug\net6.0\StoreIt.pdb
+C:\Users\jhon brayl\source\repos\StoreIt\StoreIt\obj\Debug\net6.0\StoreIt.csproj.AssemblyReference.cache
+C:\Users\jhon brayl\source\repos\StoreIt\StoreIt\obj\Debug\net6.0\StoreIt.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\jhon brayl\source\repos\StoreIt\StoreIt\obj\Debug\net6.0\StoreIt.AssemblyInfoInputs.cache
+C:\Users\jhon brayl\source\repos\StoreIt\StoreIt\obj\Debug\net6.0\StoreIt.AssemblyInfo.cs
+C:\Users\jhon brayl\source\repos\StoreIt\StoreIt\obj\Debug\net6.0\StoreIt.csproj.CoreCompileInputs.cache
+C:\Users\jhon brayl\source\repos\StoreIt\StoreIt\obj\Debug\net6.0\StoreIt.dll
+C:\Users\jhon brayl\source\repos\StoreIt\StoreIt\obj\Debug\net6.0\refint\StoreIt.dll
+C:\Users\jhon brayl\source\repos\StoreIt\StoreIt\obj\Debug\net6.0\StoreIt.pdb
+C:\Users\jhon brayl\source\repos\StoreIt\StoreIt\obj\Debug\net6.0\StoreIt.genruntimeconfig.cache
+C:\Users\jhon brayl\source\repos\StoreIt\StoreIt\obj\Debug\net6.0\ref\StoreIt.dll
